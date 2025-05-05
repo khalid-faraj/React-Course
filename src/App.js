@@ -9,10 +9,9 @@ function App() {
       <Header/>
       <div className="flexboxs">
       <div className='post-in-col'>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
+      <Post postTitle="Khalid Post">
+        <h3 style={{margin: '5px'}}>This is the Post Childern!</h3>
+      </Post>
       </div>
       <>
       <Box/>
